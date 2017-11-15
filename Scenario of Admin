@@ -1,0 +1,37 @@
+Scenario 1
+
+Scenario Name : AddDoctor
+
+Participating Actors : Murat: Admin
+
+Pre-Condition : Murat must add the new doctor hired to the system, logs to the system logs in as admin.
+
+Flow of Events:
+1) A new doctor has been hired to the hospital staff. For the new doctor to see his appointments, and the users to be able to see his appointment times and take appointments from him, Murat must add him to the doctors list in the website.
+2) Murat opens the hospital website and logs in as admin. He clicks add new doctor.
+3) Murat enters the new doctors information (name , title etc) under the doctors list, and under his department. He sets up his appointment times available in the calendar.
+4) The new doctor is given a username, and/or e-mail set from his name and surname, and a password set by Murat/pregenerated. The password maybe changed later by the doctor.
+5) The doctor is added to the system and is now visible in the website.
+
+Scenario 2
+
+Scenario Name: UpdateDoctor
+
+Participating Actors: Murat:Admin
+
+Flow of Events:
+
+1) The working shifts of two doctors in the same department has been changed with each other. Murat interchanges their calendar.
+2) Murat logs in as admin to the website. From departments list, he finds these two doctors.
+3) Murat changes the doctors appointment times in their calendar with each other. When finished, he clicks "update calendar" to update/save the changes.
+
+Scenario 3
+
+Scenario Name: ChangeHomeSite
+
+Participating Actors: Murat:Admin
+
+1) A hospital news, an announcement and the advertisement of a newly opened hospital building in another city is to be announced in the website.
+2) Ali logs in as admin.
+3) He clicks the news tab and then clicks "add".
+4) He enters the messages and images attached one by one, and clicks 'ok' each time to confirm.
