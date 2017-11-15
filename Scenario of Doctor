@@ -1,0 +1,44 @@
+## **Scenario 1:**
+
+**Scenario Name:** surgerySceduled
+**Participant actor instances:** Ahmet:Doctor
+**Flow of Events:** 1) The patient comes to see the doctor and the doctor examines the patient. Then
+ the doctor thinks of the diagnostics and determines the sickness.
+2) By the diagnostics the doctor decides that a surgery is needed.
+3) He opens the online hospital page and logs in then chooses the surgery
+scheduling page and schedules a surgery for his patient, clicks on the save button and sends it to
+admin to approve.
+4) System receives the schedule and sends it to admin to approve.
+
+## **Scenario 2:**
+
+**Scenario Name:** listUpdated
+**Participant actor instances:** Ahmet:Doctor
+**Flow of Events:** 1) In the time period which Ahmet needs to update his informations/empty hours on
+the system, he determines his hours and free days.
+2) He logs in the system and opens his schedule.
+3) By the time periods, he chooses his available hours and clicks on the save button.
+4) System receives the schedule and saves the differences that Ahmet has done.
+
+## **Scenario 3:**
+
+**Scenario Name**: appointmentsShown
+**Participant actor instances:** Ahmet: Doctor
+**Flow of Events**: 1) Ahmet wants to see his appointments to see his next patient.
+2) He logs in the system and clicks on the appointments link.
+3) The list of his next appointments appears on his screen and he clicks on the
+patient’s name to see the informations of his patient.
+4) He checks the informations and see if the patient was his patient before or not, if
+yes then he sees the previous sicknesses or treatments of his patient.
+
+## **Scenario 4:**
+
+**Scenario Name:** testResultsShown
+**Participant actor instances:** Ahmet:Doctor
+                                            Derya: Laborant
+**Flow of Events:** 1) After Ahmet treats his patients he wants them to give some samples to the
+laboratory and leads his patients to the laboratory.
+2) After the patients go to the laboratory and give some samples to the laboratory,
+Derya takes the samples and examines them.
+3) After Derya examines the samples, logs in the system and prepares a document
+for the results and updates those to the system to make the patient be able to get the results.
