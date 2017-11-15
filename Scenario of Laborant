@@ -1,0 +1,10 @@
+**Scenario Name :** SendTestResults
+
+**Participating Actors:** Derya: Laborant , Doctor: Ahmet, Patient: Arif
+
+**Flow of Events :** 
+
+**1)** After the patient gave the samples in the lab, Derya has analyzed them and when the test results are out, she logs into the system as laborant.
+**2)** From doctor's logs Derya searches for the patient which gave the samples and clicks on his name. 
+**3)** After she opens the patient's page, she logs the patient's test results. 
+**4)** After Derya logs the patient's results, she sends them to doctor and patient's pages both. 
