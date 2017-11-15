@@ -1,0 +1,25 @@
+Scenario 1
+
+Scenario Name : showTheHomePage
+
+Participating Actors: Ramazan : Visitor
+
+Flow of Events :
+1) Ramazan wants to get some information about the hospital.
+2) He opens the hospital's web page.
+3) He clicks on the doctors' pages to get some information of the doctors by the departments.
+4) Then he wants to get some information of the medical devices and goes back to home page to searches for the medical devices. Clicks on the about out devices link to see the devices available.
+5) He checks on the latest news and annoucements by clicking the "news" menu.
+6) He is interested to have his checkups in this hospital, and checks where the hospital is located by ' Buildings ' and checks it's address.
+7) Ramazan has all the information he needs. He closes the website.
+
+Scenario2
+
+Scenario Name: Register
+
+Participating Actors: Ramazan:Visitor
+
+1) Ramazan will check and take an appointment from "Check Up Center" department of the hospital if it fits his personal schedule. To do so, he must create a user as patient.
+2) Ramazan clicks on 'Register' for new user. He enters his information accordingly.
+3) He clicks "submit" to send his information. A validation message is sent to his e-mail.
+4) He logs in to his e-mail, and clicks to the e-mail that's sent by the hospital. His account is now activated. He can now login as patient,check and take appointments from the doctors.
