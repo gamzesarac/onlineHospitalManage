@@ -1,0 +1,37 @@
+# Scenario-1a
+**Scenario Name:** AddDepartment
+**Participant Actor Instances:** Murat-Admin 
+**Flow of Events:** 
+**1)** A new department was established to the hospital. For the users to be aware of this new department, Murat must add it to the departments list in the website.
+**2)** Murat opens the website and logs in as admin. He clicks to the departments topic.
+**3)** Murat clicks "add new department" under the departments list.
+**4)** Murat enters the new department's information such as "title", "explanation", "medical devices" and "doctors under this department".
+**5)** Murat clicks "complete" button and there it is. New department added to the system.
+
+# Scenario-1b
+**Scenario Name:** DeleteDepartment
+**Participant Actor Instances:** Murat-Admin 
+**Flow of Events:** 
+**1)** A department was removed from the hospital. For the users to be aware of this, Murat must delete it from the departments list in the website.
+**2)** Murat opens the website and logs in as admin. He clicks to the departments topic.
+**3)** Murat clicks related department and in this section clicks to "remove this department".
+**4)** The department was removed.
+
+# Scenario-2a
+**Scenario Name:** AddMedicalDevice
+**Participant Actor Instances:** Murat-Admin 
+**Flow of Events:** 
+**1)** A new Medical device comes to the hospital. For the users to be aware of this new device, Murat must add it to the system.
+**2)** Murat opens the website and logs in as admin. He clicks to the departments topic.
+**3)** Murat clicks the related department then in this section, clicks "devices" and then clicks "add new device" under the device list.
+**4)** Murat enters the new device's information such as "title", and "explanation".
+**5)** Murat clicks "complete" button and there it is. New device added to the system.
+
+# Scenario-2b
+**Scenario Name:** DeleteMedicalDevice
+**Participant Actor Instances:** Murat-Admin 
+**Flow of Events:** 
+**1)** A device was removed from the hospital. For the users to be aware of this, Murat must delete it from the related department in the website.
+**2)** Murat opens the website and logs in as admin. He clicks to the departments topic.
+**3)** Murat clicks the related department then in this section, and then clicks "devices". Then selects related device and then clicks "remove this device".
+**4)** The device was removed.
