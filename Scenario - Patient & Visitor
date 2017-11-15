@@ -1,0 +1,44 @@
+# Scenario-1
+**Scenario Name:** GetAnAppointment
+**Participant actor instances:** Gamze:Patient
+**Flow of events:**
+**1**) Gamze is sick. She wants look up doctor. She enter for get an appointment  www.onlinehospital.com. 
+**2**)She research all the doctors which making an appointment with doctor to decide.
+**3**)She enters her e-mail address and password to login the site.
+**4**)She select KBB department. After all doctors list of KBB department. She is treated by Dr. Ahmet Yılmaz.
+**5**)Gamze select available date and hour list of doctor.
+**6**)Gamze enter name-surname, address, telephone number and e-mail. 
+**7**)Thus patient finished appointment.
+
+# Scenario-2
+**Scenario Name:** ListAppointments
+**Participant actor instances:** Ali:Patient
+**Flow of events:**
+**1**)Ali login  www.onlinehospital.com
+**2**)He enter of his Profile.
+**3**) He want show his appointments.
+**4**)He click 'List Appointments' tab so show the all appointments. 
+
+# Scenario-3
+**Scenario Name:** ProfileUpdate
+**Participant actor instances:** Gamze:Patient
+**Flow of events:**
+**1**)Gamze login  www.onlinehospital.com.
+ **2**)Gamze want changing profile information . 
+**3**)Gamze can change telephone number, address, e-mail, blood type and photograpy.
+
+# Scenario-4
+**Scenario Name:** ListMedicalDevices
+**Participant actor instances:** Mehmet:Visitor
+**Flow of events:**
+**1**) Mehmet makes the visitor to login to the site.
+ **2**) He wants to learn that surgery is going to be therefore medical instruments in the hospital.
+**3**) He click 'Medical Devices' tab so show the all devices and its information. 
+
+# Scenario-5
+**Scenario Name:** ListDoctors
+**Participant actor instances:** Mehmet:Visitor
+**Flow of events:**
+**1**) Mehmet makes the visitor to login to the site.
+ **2**) He wants to be treated in this hospital and the doctors of the hospital and wants to learn about their expertise 
+**3**) He click 'My Doctors' tab so show the all doctors and its all information. 
